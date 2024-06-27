@@ -1,0 +1,12 @@
+{
+  "name": "ci",
+  "sdk": "go",
+  "dependencies": [
+    {
+      "name": "kustomize",
+      "source": "github.com/sagikazarmark/daggerverse/kustomize@d814d0d7c421348f51cdda96870a05ca2aa8e96a"
+    }
+  ],
+  "source": "dagger",
+  "engineVersion": "v0.11.9"
+}

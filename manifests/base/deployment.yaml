@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: hello-server
+  name: hello-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-server
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: hello-server
+    spec:
+      containers:
+      - image: ttl.sh/dagger-demo/hello-server:0.1.0
+        name: hello-server
