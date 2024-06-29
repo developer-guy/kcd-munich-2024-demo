@@ -5,7 +5,7 @@ HOME = $(shell echo $$HOME)
 .PHONY: minikube
 minikube:
 	@# Start the minikube cluster
-	minikube start --driver=docker
+	minikube start --driver=docker --cpus=4 --memory=8192
 	crane copy ghcr.io/developer-guy/hello-server:0.1.0 ttl.sh/dagger-demo/hello-server:0.1.0
 
 .PHONY: apk
