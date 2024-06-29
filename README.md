@@ -117,7 +117,7 @@ kube-pod://dagger-dagger-dagger-helm-engine-5bmrz?namespace=dagger
 Then, call the simple hello module by [@solomonstre](https://x.com/solomonstre):
 
 ```bash
-dagger -m github.com/shykes/daggerverse/hello@v0.2.0 call hello
+dagger -m github.com/shykes/daggerverse/hello@v0.1.2 call hello
 ```
 
 If you see the output of the above command as `hello, world!`, then the connection is working as expected and we can proceed to the next step.
