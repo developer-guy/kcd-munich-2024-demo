@@ -6,4 +6,4 @@ resources:
 - base
 images:
 - name: ttl.sh/dagger-demo/hello-server
-  newTag: 0.1.0
+  newTag: 0.2.0
